@@ -1,13 +1,13 @@
 {
   "name": "default-feed",
-  "url": "http://localhost/Max/main.json",
+  "url": "https://vijay-coriolis.github.io/main.json",
   "schema": "1.0",
   "version": "20171211104288",
   "sites": [
    
     {
       "name": "wikipedia",
-      "src": "http://localhost/Max/main.json",
+      "src": "https://vijay-coriolis.github.io/main.json",
       "safe": [
         {
           "domain": "wikipedia.org"
@@ -16,7 +16,7 @@
     },
     {
       "name": "HDFC",
-      "src": "http://localhost/Max/main.json",
+      "src": "https://vijay-coriolis.github.io/main.json",
       "safe": [
         {
           "domain": "hdfcbank.com"
@@ -31,7 +31,7 @@
       "templates": [
         {
           "name": "HDFC",
-          "image": "http://localhost/Max/HDFC.png",
+          "image": "https://vijay-coriolis.github.io/images/HDFC.png",
           "checksum": "f66670f8a5bfa6c43636d2649e39953d8ec9f4917f54cb8c110f256ae2d851e6"
         }
      
@@ -39,7 +39,7 @@
     },
     {
       "name": "ICICI",
-      "src": "http://localhost/Max/main.json",
+      "src": "https://vijay-coriolis.github.io/main.json",
       "safe": [
         {
           "domain": "icicibank.com"
@@ -54,7 +54,7 @@
       "templates": [
         {
           "name": "ICICI",
-          "image": "http://localhost/Max/ICICI.png",
+          "image": "https://vijay-coriolis.github.io/images/ICICI.png",
           "checksum": "fcb2bd53ebe5fa90eb13f3b53316ee7044e0347ab2bbdf54ef11d26d6e047377"
         }
      
@@ -62,7 +62,7 @@
     },
     {
       "name": "SBI",
-      "src": "http://localhost/Max/main.json",
+      "src": "https://vijay-coriolis.github.io/main.json",
       "safe": [
         {
           "domain": "onlinesbi.com"
@@ -74,7 +74,7 @@
     },
     {
       "name": "IDBI",
-      "src": "http://localhost/Max/main.json",
+      "src": "https://vijay-coriolis.github.io/main.json",
       "safe": [
         {
           "domain": "idbibank.in"
@@ -89,7 +89,7 @@
       "templates": [
         {
           "name": "IDBI",
-          "image": "http://localhost/Max/IDBI.png",
+          "image": "https://vijay-coriolis.github.io/images/IDBI.png",
           "checksum": "109948522c11bff6c6360caac5285303241d4a15b9944b7b07f90f5b10052d26"
         }
      
@@ -98,7 +98,7 @@
     },
  {
       "name": "Axis",
-      "src": "http://localhost/Max/main.json",
+      "src": "https://vijay-coriolis.github.io/main.json",
     "safe": [
         {
           "domain": "axisbank.com"
@@ -113,7 +113,7 @@
       "templates": [
         {
           "name": "Axis",
-          "image": "http://localhost/Max/AXIS.png",
+          "image": "https://vijay-coriolis.github.io/images/AXIS.png",
           "checksum": "310e166e98814c24da9839979095123b327f9b35013791bc98c1da4bea703bec"
         }
      
