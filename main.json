@@ -4,7 +4,6 @@
   "schema": "1.0",
   "version": "20171211104288",
   "sites": [
-   
     {
       "name": "wikipedia",
       "src": "https://vijay-coriolis.github.io/main.json",
@@ -15,49 +14,45 @@
       ]
     },
     {
-      "name": "HDFC",
+      "name": "HDFC Bank",
       "src": "https://vijay-coriolis.github.io/main.json",
       "safe": [
         {
           "domain": "hdfcbank.com"
         }
       ],
- "protected": [
+      "protected": [
         {
           "url": "https://www.hdfcbank.com/"
         }
-        
       ],
       "templates": [
         {
-          "name": "HDFC",
+          "name": "HDFC Bank",
           "image": "https://vijay-coriolis.github.io/images/HDFC.png",
           "checksum": "f66670f8a5bfa6c43636d2649e39953d8ec9f4917f54cb8c110f256ae2d851e6"
         }
-     
       ]
     },
     {
-      "name": "ICICI",
+      "name": "ICICI Bank",
       "src": "https://vijay-coriolis.github.io/main.json",
       "safe": [
         {
           "domain": "icicibank.com"
         }
       ],
-"protected": [
+      "protected": [
         {
           "url": "https://www.icicibank.com/"
         }
-        
       ],
       "templates": [
         {
-          "name": "ICICI",
+          "name": "ICICI Bank",
           "image": "https://vijay-coriolis.github.io/images/ICICI.png",
           "checksum": "db50407e2e3d68c6efab3639e96bbaeabf8010354d87e67be24bf251abd09364"
         }
-     
       ]
     },
     {
@@ -67,58 +62,49 @@
         {
           "domain": "onlinesbi.com"
         }
-
       ]
-    
-   
     },
     {
-      "name": "IDBI",
+      "name": "IDBI Bank",
       "src": "https://vijay-coriolis.github.io/main.json",
       "safe": [
         {
           "domain": "idbibank.in"
         }
       ],
-"protected": [
+      "protected": [
         {
           "url": "https://www.idbibank.in/index.asp"
         }
-        
       ],
       "templates": [
         {
-          "name": "IDBI",
+          "name": "IDBI Bank",
           "image": "https://vijay-coriolis.github.io/images/IDBI.png",
           "checksum": "109948522c11bff6c6360caac5285303241d4a15b9944b7b07f90f5b10052d26"
         }
-     
       ]
-
     },
- {
-      "name": "Axis",
+    {
+      "name": "Axis Bank",
       "src": "https://vijay-coriolis.github.io/main.json",
-    "safe": [
+      "safe": [
         {
           "domain": "axisbank.com"
         }
       ],
-"protected": [
+      "protected": [
         {
           "url": "https://www.axisbank.com/"
         }
-        
       ],
       "templates": [
         {
-          "name": "Axis",
+          "name": "Axis Bank",
           "image": "https://vijay-coriolis.github.io/images/AXIS.png",
           "checksum": "fa1021ec474f6fe4e7edb7893c71e3c4d165c0d84d4b0f35bf4642966a800b0d"
         }
-     
       ]
-
     }
   ]
 }
