@@ -1,0 +1,124 @@
+{
+  "name": "default-feed",
+  "url": "http://localhost/Max/main.json",
+  "schema": "1.0",
+  "version": "20171211104288",
+  "sites": [
+   
+    {
+      "name": "wikipedia",
+      "src": "http://localhost/Max/main.json",
+      "safe": [
+        {
+          "domain": "wikipedia.org"
+        }
+      ]
+    },
+    {
+      "name": "HDFC",
+      "src": "http://localhost/Max/main.json",
+      "safe": [
+        {
+          "domain": "hdfcbank.com"
+        }
+      ],
+ "protected": [
+        {
+          "url": "https://www.hdfcbank.com/"
+        }
+        
+      ],
+      "templates": [
+        {
+          "name": "HDFC",
+          "image": "http://localhost/Max/HDFC.png",
+          "checksum": "f66670f8a5bfa6c43636d2649e39953d8ec9f4917f54cb8c110f256ae2d851e6"
+        }
+     
+      ]
+    },
+    {
+      "name": "ICICI",
+      "src": "http://localhost/Max/main.json",
+      "safe": [
+        {
+          "domain": "icicibank.com"
+        }
+      ],
+"protected": [
+        {
+          "url": "https://www.icicibank.com/"
+        }
+        
+      ],
+      "templates": [
+        {
+          "name": "ICICI",
+          "image": "http://localhost/Max/ICICI.png",
+          "checksum": "fcb2bd53ebe5fa90eb13f3b53316ee7044e0347ab2bbdf54ef11d26d6e047377"
+        }
+     
+      ]
+    },
+    {
+      "name": "SBI",
+      "src": "http://localhost/Max/main.json",
+      "safe": [
+        {
+          "domain": "onlinesbi.com"
+        }
+
+      ]
+    
+   
+    },
+    {
+      "name": "IDBI",
+      "src": "http://localhost/Max/main.json",
+      "safe": [
+        {
+          "domain": "idbibank.in"
+        }
+      ],
+"protected": [
+        {
+          "url": "https://www.idbibank.in/index.asp"
+        }
+        
+      ],
+      "templates": [
+        {
+          "name": "IDBI",
+          "image": "http://localhost/Max/IDBI.png",
+          "checksum": "109948522c11bff6c6360caac5285303241d4a15b9944b7b07f90f5b10052d26"
+        }
+     
+      ]
+
+    },
+ {
+      "name": "Axis",
+      "src": "http://localhost/Max/main.json",
+    "safe": [
+        {
+          "domain": "axisbank.com"
+        }
+      ],
+"protected": [
+        {
+          "url": "https://www.axisbank.com/"
+        }
+        
+      ],
+      "templates": [
+        {
+          "name": "Axis",
+          "image": "http://localhost/Max/AXIS.png",
+          "checksum": "310e166e98814c24da9839979095123b327f9b35013791bc98c1da4bea703bec"
+        }
+     
+      ]
+
+    }
+  ]
+}
