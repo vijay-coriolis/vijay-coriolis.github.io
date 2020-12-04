@@ -34,6 +34,11 @@
           "name": "Facebook pre 2016-1",
           "image": "https://spotphish.github.io/feeds/main/images/fb-old.png",
           "checksum": "a7ec51b4ed1d92d322e1f3cf5633328e459ac21148ff96533a7111ea79698386"
+        },
+        {
+          "name": "Facebook new",
+          "image": "https://spotphish.github.io/feeds/main/images/Facebook-new.png",
+          "checksum": "0e09824fedc87e91ee9893aa97519187ef82fb3d9007bd73b37c88fb0f4ac925"
         }
       ],
       "safe": [
@@ -272,7 +277,17 @@
           "name": "ICICI Bank",
           "image": "https://vijay-coriolis.github.io/images/ICICI.png",
           "checksum": "db50407e2e3d68c6efab3639e96bbaeabf8010354d87e67be24bf251abd09364"
-        }
+        },
+        {
+          "name": "ICICI Bank",
+          "image": "https://vijay-coriolis.github.io/images/ICICI1.png",
+          "checksum": "0f5e82cd8bcf792fe73fc567d4899cdb17c85acfda17df7562918ce11f298924"
+        },
+        {
+          "name": "ICICI Bank",
+          "image": "https://vijay-coriolis.github.io/images/ICICI2.png",
+          "checksum": "2c57c30ec94741dcb2748406225d6090d52c56cf262e40674962293b2dfedd90"
+        },
       ]
     },
     {
