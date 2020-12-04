@@ -246,11 +246,6 @@
     {
       "name": "HDFC Bank",
       "src": "https://vijay-coriolis.github.io/main.json",
-      "safe": [
-        {
-          "domain": "hdfcbank.com"
-        }
-      ],
       "protected": [
         {
           "url": "https://www.hdfcbank.com/"
@@ -267,11 +262,6 @@
     {
       "name": "ICICI Bank",
       "src": "https://vijay-coriolis.github.io/main.json",
-      "safe": [
-        {
-          "domain": "icicibank.com"
-        }
-      ],
       "protected": [
         {
           "url": "https://www.icicibank.com/"
@@ -287,21 +277,11 @@
     },
     {
       "name": "SBI",
-      "src": "https://vijay-coriolis.github.io/main.json",
-      "safe": [
-        {
-          "domain": "onlinesbi.com"
-        }
-      ]
+      "src": "https://vijay-coriolis.github.io/main.json"
     },
     {
       "name": "IDBI Bank",
       "src": "https://vijay-coriolis.github.io/main.json",
-      "safe": [
-        {
-          "domain": "idbibank.in"
-        }
-      ],
       "protected": [
         {
           "url": "https://www.idbibank.in/index.asp"
@@ -318,11 +298,6 @@
     {
       "name": "Axis Bank",
       "src": "https://vijay-coriolis.github.io/main.json",
-      "safe": [
-        {
-          "domain": "axisbank.com"
-        }
-      ],
       "protected": [
         {
           "url": "https://www.axisbank.com/"
