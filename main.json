@@ -261,6 +261,21 @@
           "name": "HDFC Bank",
           "image": "https://vijay-coriolis.github.io/images/HDFC.png",
           "checksum": "f66670f8a5bfa6c43636d2649e39953d8ec9f4917f54cb8c110f256ae2d851e6"
+        },
+        {
+          "name": "HDFC Bank",
+          "image": "https://vijay-coriolis.github.io/images/HDFC1.png",
+          "checksum": "627597f56467e309f9d9bb5b8772e2cbf23ed28767ee7510d1b75c12d79dbf39"
+        },
+        {
+          "name": "HDFC Bank",
+          "image": "https://vijay-coriolis.github.io/images/HDFC2.png",
+          "checksum": "c24004d151e1c6094493fe503d685b915b7f966859efbdfc9e82bcadc6e99ae6"
+        },
+        {
+          "name": "HDFC Bank",
+          "image": "https://vijay-coriolis.github.io/images/HDFC3.png",
+          "checksum": "f80f10c352cb57397f6c9a323dc773b67a7a9da875046464bc8c6c21a2696d95"
         }
       ]
     },
