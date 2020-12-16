@@ -1,5 +1,6 @@
 {
   "models": [
-    "LogoDetection"
+    "LogoDetection",
+    "Classification"
   ]
 }
