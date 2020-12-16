@@ -43,7 +43,7 @@ class LogoDetection {
         this.count = 0;
         this.width = 400;
         this.height = 400;
-        this.graph_model_url = "./model/model.json";
+        this.graph_model_url = "https://vijay-coriolis.github.io/LogoDetection/model/model.json";
 
     }
     async loadModel(){
