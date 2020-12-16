@@ -46,10 +46,7 @@ class LogoDetection {
         this.graph_model_url = "https://vijay-coriolis.github.io/LogoDetection/model/model.json";
 
     }
-    async loadModel(){
-    this.model=  await   tf.loadGraphModel(this.graph_model_url)
-    console.log("TF configured");
-    }
+
     drawCorrespondence(x_origin, y_origin, outputs, ans, image) {
         return new Promise((resolve,reject) => {
             var canvas = document.createElement("canvas");
@@ -94,6 +91,8 @@ class LogoDetection {
     }
 
     async predict(url) {
+        this.model=  await   tf.loadGraphModel(this.graph_model_url)
+
         console.log('I am inside tfJS');
         let image = await this.loadImage(url);
 
