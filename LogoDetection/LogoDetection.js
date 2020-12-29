@@ -1,7 +1,5 @@
 import * as tf from 'https://vijay-coriolis.github.io/LogoDetection/dependency/tf.min.js'
-console.log(typeof tf);
-console.log(tf);
-console.log(tf.loadGraphModel);
+export {tf}
 export default class LogoDetection {
     #label;
     #count;
