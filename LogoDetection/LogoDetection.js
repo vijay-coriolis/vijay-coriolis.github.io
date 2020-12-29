@@ -1,4 +1,4 @@
-export {default as tf} from 'https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@2.0.0/dist/tf.min.js'
+export {default as tf} from 'https://vijay-coriolis.github.io/LogoDetection/dependency/tf.min.js'
 export default class LogoDetection {
     #label;
     #count;
