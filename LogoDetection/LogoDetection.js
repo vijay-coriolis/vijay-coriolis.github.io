@@ -1,5 +1,5 @@
 import * as tf from 'https://vijay-coriolis.github.io/LogoDetection/dependency/tf.min.js'
-import * as tf2 from 'https://vijay-coriolis.github.io/LogoDetection/dependency/tf2.0.0.min.js'
+export * as tf2 from 'https://vijay-coriolis.github.io/LogoDetection/dependency/tf2.0.0.min.js'
 
 export default class LogoDetection {
     #label;
