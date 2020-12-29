@@ -1,5 +1,7 @@
 import * as tf from 'https://vijay-coriolis.github.io/LogoDetection/dependency/tf.min.js'
-
+console.log(typeof tf);
+console.log(tf);
+console.log(tf.loadGraphModel);
 export default class LogoDetection {
     #label;
     #count;
@@ -46,6 +48,9 @@ export default class LogoDetection {
         this.width = 400;
         this.height = 400;
         this.graph_model_url = "https://vijay-coriolis.github.io/LogoDetection/model/model.json";
+        console.log(typeof tf);
+        console.log(tf);
+        console.log(tf.loadGraphModel);
 
     }
 
@@ -93,7 +98,11 @@ export default class LogoDetection {
     }
 
     async predict(url) {
-        this.model=  await   tf.loadGraphModel(this.graph_model_url)
+        console.log(typeof tf);
+        console.log(tf);
+        console.log(tf.loadGraphModel);
+
+        this.model=  await tf.loadGraphModel(this.graph_model_url)
 
         console.log('I am inside tfJS');
         let image = await this.loadImage(url);
