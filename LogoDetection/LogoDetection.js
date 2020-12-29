@@ -1,4 +1,6 @@
-class LogoDetection {
+import * as tf from 'https://vijay-coriolis.github.io/LogoDetection/dependency/tf.min.js'
+
+export class LogoDetection {
     #label;
     #count;
     #width;
