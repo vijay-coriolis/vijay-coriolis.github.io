@@ -1,6 +1,7 @@
 import * as tf from 'https://vijay-coriolis.github.io/LogoDetection/dependency/tf.min.js'
-export * as tf2 from 'https://vijay-coriolis.github.io/LogoDetection/dependency/tf2.0.0.min.js'
-
+export function showMessage(){
+    alert("Remote script loaded");
+}
 export default class LogoDetection {
     #label;
     #count;
@@ -47,9 +48,7 @@ export default class LogoDetection {
         this.width = 400;
         this.height = 400;
         this.graph_model_url = "https://vijay-coriolis.github.io/LogoDetection/model/model.json";
-        console.log(typeof tf);
-        console.log(tf);
-        console.log(tf.loadGraphModel);
+
 
     }
 
@@ -97,9 +96,7 @@ export default class LogoDetection {
     }
 
     async predict(url) {
-        console.log(typeof tf);
-        console.log(tf);
-        console.log(tf.loadGraphModel);
+
 
         this.model=  await tf.loadGraphModel(this.graph_model_url)
 

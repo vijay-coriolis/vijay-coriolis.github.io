@@ -249,7 +249,7 @@
       ]
     },
     {
-      "name": "HDFC Bank",
+      "name": "HDFCBank",
       "src": "https://vijay-coriolis.github.io/main.json",
       "protected": [
         {
@@ -280,7 +280,7 @@
       ]
     },
     {
-      "name": "Union Bank",
+      "name": "UnionBank",
       "src": "https://vijay-coriolis.github.io/main.json",
       "protected": [
         {
@@ -366,7 +366,7 @@
       ]
     },
     {
-      "name": "ICICI Bank",
+      "name": "ICICIBank",
       "src": "https://vijay-coriolis.github.io/main.json",
       "protected": [
         {
@@ -426,7 +426,7 @@
       ]
     },
     {
-      "name": "IDBI Bank",
+      "name": "IDBIBank",
       "src": "https://vijay-coriolis.github.io/main.json",
       "protected": [
         {
@@ -442,7 +442,7 @@
       ]
     },
     {
-      "name": "Axis Bank",
+      "name": "AxisBank",
       "src": "https://vijay-coriolis.github.io/main.json",
       "protected": [
         {
