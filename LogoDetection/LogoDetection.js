@@ -1,7 +1,3 @@
-import * as tf from 'https://vijay-coriolis.github.io/LogoDetection/dependency/tf.min.js'
-export function showMessage(){
-    alert("Remote script loaded");
-}
 export default class LogoDetection {
     #label;
     #count;
