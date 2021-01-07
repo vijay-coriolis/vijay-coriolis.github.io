@@ -60,10 +60,13 @@ export default class LogoDetection {
             let y_max=outputs[0].dataSync()[4*ans+2]*image.height;
             let x_max=outputs[0].dataSync()[4*ans+3]*image.width;
             ctx.beginPath();
+            ctx.strokeStyle = "red";
+
             ctx.lineWidth = 3;
             ctx.rect(x_min+x_origin, y_origin+y_min, x_max-x_min, y_max-y_min);
             ctx.stroke();
             ctx.lineWidth = 1;
+
             ctx.font = "normal 15px Georgia";
             ctx.fillText(this.label[outputs[2].dataSync()[ans]-1]+':'+ Math.round(outputs[1].dataSync()[ans] * 100)+ '%', x_min+x_origin, y_max+15+y_origin);
             ctx.strokeText(this.label[outputs[2].dataSync()[ans]-1]+':'+ Math.round(outputs[1].dataSync()[ans] * 100)+ '%', x_min+x_origin, y_max+15+y_origin);
@@ -176,6 +179,7 @@ export default class LogoDetection {
             let x_max=outputs[0].dataSync()[4*ans+3]*image.width;
             ctx.beginPath();
             ctx.lineWidth = 3;
+            ctx.strokeStyle = "red";
             ctx.rect(x_min+x_origin, y_origin+y_min, x_max-x_min, y_max-y_min);
             ctx.stroke();
             ctx.lineWidth = 1;
