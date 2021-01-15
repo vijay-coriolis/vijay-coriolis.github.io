@@ -1,8 +1,5 @@
 import {sayHello} from  "https://cdn.jsdelivr.net/gh/spotphish/spotphish/examples/LogoDetection/demoScript1.js"
-LogoDetection.dependencies =[
-    "https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@2.0.0/dist/tf.min.js",
-    "https://cdn.jsdelivr.net/gh/spotphish/spotphish/examples/LogoDetection/demoScript2.js"
-]
+
 export default class LogoDetection {
     #label;
     #count;
@@ -291,3 +288,7 @@ export default class LogoDetection {
     }
 
   }
+  LogoDetection.dependencies =[
+    "https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@2.0.0/dist/tf.min.js",
+    "https://cdn.jsdelivr.net/gh/spotphish/spotphish/examples/LogoDetection/demoScript2.js"
+]
