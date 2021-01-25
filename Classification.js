@@ -12,3 +12,4 @@ export default class Classification{
       */
   }
 }
+Classification.dependencies=[ROOT_DIR]
