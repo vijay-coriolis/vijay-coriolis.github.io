@@ -45,7 +45,7 @@ export default class LogoDetection {
         this.count = 0;
         this.width = 400;
         this.height = 400;
-        this.graph_model_url = "https://github.com/spotphish/spotphish/blob/master/models/LogoDetection/model/model.json";
+        this.graph_model_url = "https://cdn.jsdelivr.net/gh/spotphish/spotphish/examples/LogoDetection/model/model.json";
 
 
     }
