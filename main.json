@@ -367,8 +367,7 @@
         {
           "name": "Union Bank",
           "image": "https://vijay-coriolis.github.io/images/union1.png",
-          "checksum": "2a1d4ee6e6a1664645a70328d730f7482734e3207303fcbccea8bc364e26eeee",
-          "deleted":true
+          "checksum": "2a1d4ee6e6a1664645a70328d730f7482734e3207303fcbccea8bc364e26eeee"
         },
         {
           "name": "Union Bank",
@@ -395,8 +394,6 @@
           "name": "Union Bank",
           "image": "https://vijay-coriolis.github.io/images/union5.png",
           "checksum": "734f41e48aaa2f3d6aafca9865e81b1e8538dd99a56fbccd3caf54e8a143b3ff"
-  ,
-  "deleted":true
 },
         {
           "name": "Union Bank",
@@ -409,8 +406,6 @@
           "name": "Union Bank",
           "image": "https://vijay-coriolis.github.io/images/union7.png",
           "checksum": "ced29f3a08030f46338de361dd2cf621beba2fb87aaf199c96330603ccbaab0b"
-,
-"deleted":true
 },
         {
           "name": "Union Bank",
@@ -430,8 +425,6 @@
           "name": "Union Bank",
           "image": "https://vijay-coriolis.github.io/images/union10.png",
           "checksum": "33a7facd1de25b9ac3cff7f401ee79cf33566e5fa2c67066ce49954a82520c84"
-,
-"deleted":true
 },
         {
           "name": "Union Bank",
